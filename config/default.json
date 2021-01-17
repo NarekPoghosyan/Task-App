@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "narek Full-Stack",
+    "mongoUri": "mongodb+srv://narek:fsarmenia99@cluster0.spkvw.mongodb.net/app?retryWrites=true&w=majority"
+}

@@ -1,0 +1,68 @@
+.authPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .auth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 600px;
+        height: 500px;
+        border: 1px solid gray;
+
+        input {
+            margin-top: 20px;
+            padding-left: 10px;
+            width: 500px;
+            height: 30px;
+            border: 1px solid lightgray;
+            outline: none;
+            border-radius: 5px;
+
+            &:focus {
+            transition: 0.3s linear;
+            -webkit-box-shadow: 0 0 10px rgb(0, 68, 255);
+            box-shadow: 0 0 10px rgb(0, 68, 255);
+            }
+
+        }
+
+        .login_signup {
+            width: 500px;
+            height: 50px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            button {
+                width: 90px;
+                height: 40px;
+                background-color: rgb(43, 97, 247);
+                outline: none;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                color: white;
+
+                &:hover {
+                    transition: 0.3s linear;
+                    -webkit-box-shadow: 0 0 10px rgb(0, 68, 255);
+                    box-shadow: 0 0 10px  rgb(0, 68, 255);
+                    }
+
+            }
+
+            .signup {
+                margin-left: 15px;
+            }
+
+        }
+
+    }
+
+}
